@@ -1,0 +1,133 @@
+* {
+  font-family: Helvetica;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 22px;
+  text-align: center;
+  max-width: 1200px;
+}
+
+header {
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+}
+
+header img {
+  padding-top: 9px;
+  padding-left: 10px;
+}
+
+nav {
+  display: flex;
+  text-align: right;
+  justify-content: space-between;
+  width: 330px;
+  height: 69px;
+  align-items: center;
+  padding-right: 10px;
+  text-decoration: underline;
+}
+
+
+#mission {
+  height: 700px;
+  width: 1200px;
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+}
+
+#mission .message {
+  width: 1200px;
+  opacity: 1;
+}
+
+#featured-tea {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 1000px;
+  justify-content: center;
+  display: inline-flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.message {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  //background-color: blue;
+}
+
+.vertical-center {
+  position: relative;
+  top: 50%;
+/*   -ms-transform: translateY(-50%);
+  transform: translateY(-50%); */
+}
+
+.img-box {
+  position: relative;
+  text-align: center;
+  //display: inline-block;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+/*   padding-left: 10px;
+  padding-right: 10px; */
+  padding: 10px;
+  width: 300px;
+  height: 250px;
+}
+
+#locations {
+  padding-top: 50px;
+  height: 500px;
+  width: 1200px;
+  text-align: center;
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+}
+
+#locations h2 {
+  background-color: transparent;
+  margin-bottom: 15px;
+}
+
+#locations .box {
+  display: inline-flex;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 300px;
+  height: 300px;
+  opacity: 1;
+  justify-content: space-around;
+  padding-block: auto;
+  flex-direction: column;
+}
+
+#footer-top {
+  width: 1200px;
+  height: 200px;
+  text-align: center;
+  //background-color: purple;
+}
+
+#footer-bottom {
+  //height: 50px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  text-align: left;
+  //background-color: blue;
+}
